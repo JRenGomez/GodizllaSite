@@ -1,27 +1,32 @@
 body{
-     color: red;
+     color: rgb(255, 255, 255);
 }
 .sideBar{
      width: 29%;
-     background-color: #333;
+     background-color: #418198;
      overflow: hidden;
 }
 .mainBody{
      width: 30%;
-     background-color: blueviolet;
+     background-color: #418198;
 }
 
-.left{
- float: left;
-  padding-right:15px;   
-}
+.left-div {
+     width: 30%;
+     float: left;
+     background-color: lightblue;
+     height: 300px; /* Adjust height as needed */
+ }
+ 
+ .right-div {
+     width: 70%;
+     float: left;
+     background-color: lightgreen;
+     height: 300px; /* Adjust height as needed */
+ }
 
-.right{
- float: right;
-  padding-left:15px;   
-}
 .block_element {
-     width: 35px;
+     width: 355px;
      background-color: lightblue;
      margin-left: auto;
      margin: 0 auto;
@@ -31,8 +36,8 @@ body{
 
 /* Add a black background color to the top navigation */
 .topnav {
-     background-color: #333;
-     overflow: hidden;
+     background-color: #0b431b;
+     overflow: hidden; /* The overflow is clipped, and the rest of the content will be invisible */ 
    }
    
    /* Style the links inside the navigation bar */
