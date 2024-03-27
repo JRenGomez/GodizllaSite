@@ -1,6 +1,9 @@
 body{
      color: rgb(255, 255, 255);
 }
+h1 {
+     font-family: helvetica, arial, sans-serif;
+    }
 .sideBar{
      width: 29%;
      background-color: #418198;
@@ -10,7 +13,23 @@ body{
      width: 30%;
      background-color: #418198;
 }
-
+/* Write your selector for .left below */
+.left{
+     float: left; 
+     padding-right:15px;
+ }
+ 
+ /* Write your selector for .right below */
+ .right{
+     float: right; 
+     padding-left:15px;
+ }
+ /* Write your selector for .separator below */
+ .separator{
+     float: right; 
+     width: 750px;
+ }
+ 
 .left-div {
      width: 30%;
      float: left;
