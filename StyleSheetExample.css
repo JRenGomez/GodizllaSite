@@ -15,14 +15,14 @@ body{
      width: 30%;
      float: left;
      background-color: lightblue;
-     height: 300px; /* Adjust height as needed */
+     height: 1000px; /* Adjust height as needed */
  }
  
  .right-div {
      width: 70%;
      float: left;
      background-color: lightgreen;
-     height: 300px; /* Adjust height as needed */
+     height: 1000px; /* Adjust height as needed */
  }
 
 .block_element {
